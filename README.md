@@ -45,12 +45,16 @@ Copy `zack_config.example.json` and rename the copy to `zack_config.json`.
 Open it and fill in your own values (see Configuration section below).
 
 ### 6. Set your API keys
-Create a file named `.env` in the same folder with:
-NVIDIA_API_KEY=your_key_here
+rename a file named `.env.example` to `.env` and put the keys from the respective webite in the same folder with:
 
-MEDIASTACK_KEY=your_key_here
-Get a free NVIDIA key at https://build.nvidia.com  
-Get a free Mediastack key at https://mediastack.com
+# Free key from https://build.nvidia.com
+NVIDIA_API_KEY=
+
+# Free key from https://mediastack.com
+MEDIASTACK_KEY=
+
+# Free key from https://openweathermap.org/api
+WEATHER_API_KEY=
 
 ### 7. Run it
 python zack.py
